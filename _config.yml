@@ -17,7 +17,7 @@ title: Jhinuk Constructions
 email: jhinukconstructions@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Jhinuk Constructions developes sweet homes for happy families amidst the serene landscape of Santiniketan.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/jk-jekyll" # the subpath of your site, e.g. /blog
 url: "http://ghoshbishakh.github.io/jk-jekyll" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
