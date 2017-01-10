@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="null" data-keyboard="true">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
 		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -15,12 +15,6 @@ layout: default
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
-		<div class="item active">
-			<img src={{ "/assets/images/slideshowImages/abihita3.jpg" | relative_url }} >
-			<div class="carousel-caption">
-
-			</div>
-		</div>
 		<div class="item">
 			<img src={{ "/assets/images/slideshowImages/gaze.jpg" | relative_url }} >
 			<div class="carousel-caption">
@@ -31,6 +25,12 @@ layout: default
 			<img src={{ "/assets/images/slideshowImages/hall.jpg" | relative_url }} >
 			<div class="carousel-caption">
 				A SPACE FOR YOURSELF
+			</div>
+		</div>
+		<div class="item active">
+			<img src={{ "/assets/images/slideshowImages/abihita3.jpg" | relative_url }} >
+			<div class="carousel-caption">
+
 			</div>
 		</div>
 	</div>
@@ -50,7 +50,7 @@ layout: default
 	</a>
 </div>
 
-<div id="ourstory" class="features container">
+<div id="ourstory" class="features container wow slideInUp">
 	<div class="row" style="text-align: center;">
 		<h1 style="font-family: Advent Pro; font-size: 3em; padding-bottom: 30px; border-bottom: 1px solid rgb(221, 221, 221); display: inline-block;">JHINUK CONSTRUCTIONS</h1>
 		<p style="font-size: 1.5em; font-family: Roboto Slab; font-weight: lighter; padding: 50px;">
@@ -60,7 +60,7 @@ layout: default
 	</div>
 	<div class="row">
 		<div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
-			<div class="feature">
+			<div class="feature wow zoomIn" >
 				<div class="feature-text">
 					<h1>250000 sqft</h1>
 					<p>Constructed</p>
@@ -68,7 +68,7 @@ layout: default
 			</div>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
-			<div class="feature">
+			<div class="feature wow zoomIn">
 				<div class="feature-text">
 					<h1>300+</h1>
 					<p>Happy Families</p>
@@ -76,7 +76,7 @@ layout: default
 			</div>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
-			<div class="feature">
+			<div class="feature wow zoomIn">
 				<div class="feature-text">
 					<h1>12 yrs</h1>
 					<p>Experience</p>
@@ -84,7 +84,7 @@ layout: default
 			</div>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-6 col-lg-3">
-			<div class="feature">
+			<div class="feature wow zoomIn">
 				<div class="feature-text">
 					<h1>200000 sqft</h1>
 					<p>upcoming complex</p>
